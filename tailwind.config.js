@@ -26,7 +26,7 @@ export default {
       backgroundImage: {
         'bannerImg':"url('../src/assets/banner.png')",
       
-      }
+      },
     },
   },
   plugins: [],

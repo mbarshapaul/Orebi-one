@@ -9,6 +9,9 @@ import { HiBars3BottomLeft } from "react-icons/hi2";
 import Heading from './components/Heading'
 import { FaSearch,FaUser,FaSortDown,FaShoppingCart,FaTruck,FaUndo} from "react-icons/fa";
 import { PiNumberTwoBold } from "react-icons/pi";
+import adOne from './assets/adOne.jpg'
+import adTwo from './assets/adTwo.png'
+import adThree from './assets/adThree.jpg'
 
 function App() {
  
@@ -63,9 +66,8 @@ function App() {
       {/* Category Part End */}
 
       {/* Banner Part Start */}
-      <div className={"bg-bannerImg py-[300px] w-full"}></div>
+      <div className={"bg-bannerImg bg-no-repeat bg-cover bg-center py-[300px]"}></div>
       {/* Banner Part End */}
-
       {/* Information Part Start */}
       <div className={"w-full py-[30px]"}>
         <Container className={"max-w-menuContainer"}>
@@ -92,6 +94,32 @@ function App() {
         </Container>
       </div>
       {/* Information Part End */}
+
+      {/* Ads Part Start */}
+      <div className={"w-full pt-[150px] pb-[70px]"}>
+        <Container className={"max-w-menuContainer"}>
+          <Flex className={"justify-between"}>
+            <div className={"w-[49%]"}>
+              <Images imgSrc={adOne}/>
+            </div>
+            <div className={"w-[49%]"}>
+            <Images imgSrc={adTwo}/>
+            <Images imgSrc={adThree} className={"mt-8"}/>
+            </div>
+          </Flex>
+        </Container>
+      </div>
+      {/* Ads Part End */}
+
+    {/* New Arrivals Start */}
+    <div className={"py-[60px]"}>
+      <Container className={"max-w-menuContainer"}>
+        
+      </Container>
+    </div>
+    {/* New Arrivals End */}
+
+
     </>
   )
 }
