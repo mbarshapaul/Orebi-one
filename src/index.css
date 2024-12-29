@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button.peer {
+    padding : 16px 80px ;
+    position: relative;
+    z-index: 10;
+    bottom: 5px;
+    right: 8px;
+}
+label{
+    top: 2px;
+    justify-content: start;
+    align-items: center;
+  }

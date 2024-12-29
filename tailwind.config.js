@@ -19,7 +19,10 @@ export default {
         'menuColor': '#767676',
         'menuHover': '#262626',
         'categoryBg': '#F5F5F3',
+        'footerBg': '#979797',
         'informationText': '#6D6D6D',
+        'borderBg': '#F0F0F0',
+        
         
       },
       // Colors
